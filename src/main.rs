@@ -1,7 +1,3 @@
-// TODO
-// implament Color gradient with emums and match statement
-// MandelbrottZoom constructor
-
 // ffmpeg -framerate 30 -start_number 1 -i ./animation/%00d.png -pix_fmt yuv420p out.mp4
 
 #![allow(dead_code)]
@@ -214,6 +210,6 @@ fn main() {
     };
     // frame.render_animation();
 
-    frame.run_multithreaded_fast()
+    frame.render_animation()
 
 }
